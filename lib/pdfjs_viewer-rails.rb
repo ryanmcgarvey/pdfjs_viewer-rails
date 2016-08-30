@@ -1,5 +1,6 @@
 require "pdfjs_viewer-rails/version"
 require "pdfjs_viewer-rails/helpers"
+require "font-awesome-rails"
 
 module PdfjsViewer
   module Rails
@@ -12,6 +13,7 @@ module PdfjsViewer
 
       initializer "pdfjs_viewer-rails.view_helpers" do
         ActionView::Base.send :include, ViewHelpers
+        ActionView::Base.send :include, FontAwesome::Rails::IconHelper
       end
     end
   end
