@@ -422,9 +422,9 @@ html[dir='rtl'] #sidebarContent {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   position: absolute;
-  top: 32px;
+  top: 0;
   right: 0;
-  bottom: 0;
+  bottom: 32px;
   left: 0;
   outline: none;
 }
@@ -436,9 +436,10 @@ html[dir='rtl'] #viewerContainer {
 }
 
 .toolbar {
-  position: relative;
+  position: absolute;
   left: 0;
   right: 0;
+  bottom: 0;
   z-index: 9999;
   cursor: default;
 }
@@ -471,8 +472,8 @@ html[dir='rtl'] #toolbarSidebar {
   position: relative;
   height: 32px;
   background-color: #474747; /* fallback */
-  background-image: url(/pdfjs/web/images/texture.png),
-                    linear-gradient(hsla(0,0%,32%,.99), hsla(0,0%,27%,.95));
+  /* background-image: url(/pdfjs/web/images/texture.png), */
+                    /* linear-gradient(hsla(0,0%,32%,.99), hsla(0,0%,27%,.95)); */
 }
 html[dir='ltr'] #toolbarContainer, .findbar, .secondaryToolbar {
   box-shadow: inset 1px 0 0 hsla(0,0%,100%,.08),

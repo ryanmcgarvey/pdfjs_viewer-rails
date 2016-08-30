@@ -2227,7 +2227,6 @@ var SecondaryToolbar = {
 
   // Event handling functions.
   presentationModeClick: function secondaryToolbarPresentationModeClick(evt) {
-    debugger;
     PDFViewerApplication.requestPresentationMode();
     this.close();
   },
