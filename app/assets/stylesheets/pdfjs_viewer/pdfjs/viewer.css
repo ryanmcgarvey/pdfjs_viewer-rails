@@ -147,10 +147,10 @@
   margin: 1px auto -8px auto;
   position: relative;
   overflow: visible;
-  border: 9px solid transparent;
+  /* border: 9px solid transparent; */
   background-clip: content-box;
-  border-image: url(/pdfjs/web/images/shadow.png) 9 9 repeat;
-  background-color: white;
+  /* border-image: url(/pdfjs/web/images/shadow.png) 9 9 repeat; */
+  /* background-color: white; */
 }
 
 .pdfViewer.removePageBorders .page {
@@ -206,8 +206,8 @@ html {
 
 body {
   height: 100%;
-  background-color: #404040;
-  background-image: url(/pdfjs/web/images/texture.png);
+  /* background-color: #404040; */
+  /* background-image: url(/pdfjs/web/images/texture.png); */
 }
 
 body,
@@ -1049,19 +1049,19 @@ html[dir='rtl'] .toolbarButton.findNext::before {
   content: url(/pdfjs/web/images/findbarButton-next-rtl.png);
 }
 
-html[dir='ltr'] .toolbarButton.pageUp::before {
-  content: url(/pdfjs/web/images/toolbarButton-pageUp.png);
-}
-html[dir='rtl'] .toolbarButton.pageUp::before {
-  content: url(/pdfjs/web/images/toolbarButton-pageUp-rtl.png);
-}
+/* html[dir='ltr'] .toolbarButton.pageUp::before { */
+  /* content: url(/pdfjs/web/images/toolbarButton-pageUp.png); */
+/* } */
+/* html[dir='rtl'] .toolbarButton.pageUp::before { */
+  /* content: url(/pdfjs/web/images/toolbarButton-pageUp-rtl.png); */
+/* } */
 
-html[dir='ltr'] .toolbarButton.pageDown::before {
-  content: url(/pdfjs/web/images/toolbarButton-pageDown.png);
-}
-html[dir='rtl'] .toolbarButton.pageDown::before {
-  content: url(/pdfjs/web/images/toolbarButton-pageDown-rtl.png);
-}
+/* html[dir='ltr'] .toolbarButton.pageDown::before { */
+  /* content: url(/pdfjs/web/images/toolbarButton-pageDown.png); */
+/* } */
+/* html[dir='rtl'] .toolbarButton.pageDown::before { */
+  /* content: url(/pdfjs/web/images/toolbarButton-pageDown-rtl.png); */
+/* } */
 
 .toolbarButton.zoomOut::before {
   content: url(/pdfjs/web/images/toolbarButton-zoomOut.png);
