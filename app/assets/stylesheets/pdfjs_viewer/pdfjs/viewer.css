@@ -1825,19 +1825,19 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     content: url(/pdfjs/web/images/findbarButton-next-rtl@2x.png);
   }
 
-  html[dir='ltr'] .toolbarButton.pageUp::before {
-    content: url(/pdfjs/web/images/toolbarButton-pageUp@2x.png);
-  }
-  html[dir='rtl'] .toolbarButton.pageUp::before {
-    content: url(/pdfjs/web/images/toolbarButton-pageUp-rtl@2x.png);
-  }
+  /* html[dir='ltr'] .toolbarButton.pageUp::before { */
+    /* content: url(/pdfjs/web/images/toolbarButton-pageUp@2x.png); */
+  /* } */
+  /* html[dir='rtl'] .toolbarButton.pageUp::before { */
+    /* content: url(/pdfjs/web/images/toolbarButton-pageUp-rtl@2x.png); */
+  /* } */
 
-  html[dir='ltr'] .toolbarButton.pageDown::before {
-    content: url(/pdfjs/web/images/toolbarButton-pageDown@2x.png);
-  }
-  html[dir='rtl'] .toolbarButton.pageDown::before {
-    content: url(/pdfjs/web/images/toolbarButton-pageDown-rtl@2x.png);
-  }
+  /* html[dir='ltr'] .toolbarButton.pageDown::before { */
+    /* content: url(/pdfjs/web/images/toolbarButton-pageDown@2x.png); */
+  /* } */
+  /* html[dir='rtl'] .toolbarButton.pageDown::before { */
+    /* content: url(/pdfjs/web/images/toolbarButton-pageDown-rtl@2x.png); */
+  /* } */
 
   .toolbarButton.zoomIn::before {
     content: url(/pdfjs/web/images/toolbarButton-zoomIn@2x.png);
